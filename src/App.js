@@ -1,15 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Demopops from './components/Demoprops/Demopops';
-import Film_Rcc from './components/Demoprops/Film_Rcc';
+
+import BaiTapChonXe from './components/BaiTapChonXe/BaiTapChonXe';
+import RenderWithMap from './components/RenderWithState/RenderWithMap';
 
 function App() {
+
+
+ 
   return (
     <div className="App">
         {/* <Demopops/> */}
         {/* <Film_Rcc/> */}
-       <Demopops/>
+       {/* <Demopops/> */}
+          {/* <RenderWhithState/> */}
+        {/* <BaiTapChonXe/> */}
+        <RenderWithMap/>
     </div>
   );
 }
