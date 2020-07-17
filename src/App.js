@@ -4,6 +4,8 @@ import './App.css';
 
 import BaiTapChonXe from './components/BaiTapChonXe/BaiTapChonXe';
 import RenderWithMap from './components/RenderWithState/RenderWithMap';
+import ExampleGlasses from './components/RenderWithState/ExampleGlasses';
+import DemoProps from './components/Props/DemoProps';
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
        {/* <Demopops/> */}
           {/* <RenderWhithState/> */}
         {/* <BaiTapChonXe/> */}
-        <RenderWithMap/>
+        {/* <RenderWithMap/> */}
+        {/* <ExampleGlasses/> */}
+        <DemoProps/>
     </div>
   );
 }
